@@ -1,1 +1,1 @@
-# Java-Spring-Boot-Application
+# Java Spring Boot application with Restful API
