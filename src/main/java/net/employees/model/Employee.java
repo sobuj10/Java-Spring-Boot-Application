@@ -31,7 +31,28 @@ public class Employee {
 	private String address;
 	@Column(name = "phone")
 	private String phone;
+	@Column(name = "salary")
+	private String salary;
 	
+	@Column(name = "working_hours")
+	private String workingHours;
+
+
+	public String getSalary() {
+		return salary;
+	}
+
+	public void setSalary(String salary) {
+		this.salary = salary;
+	}
+
+	public String getWorkingHours() {
+		return workingHours;
+	}
+
+	public void setWorkingHours(String workingHours) {
+		this.workingHours = workingHours;
+	}
 
 	public String getPhone() {
 		return phone;
